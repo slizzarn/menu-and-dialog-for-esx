@@ -10,18 +10,18 @@
 ![alt text](https://i.gyazo.com/bbd10ce9f0bcf1e975576fe0e6da3a2f.png)
 ------
 
-#Installation
+# Installation
 
-## Menu
-⋅⋅* **1** Go to *esx_menu_default/html/css/app.css*
-⋅⋅* **2** Replace everything inside the *app.css* with
+*Menu*
+⋅⋅* **1** Go to *esx_menu_default/html/css/app.css*<br />
+⋅⋅* **2** Replace everything inside the *app.css* with<br />
 ⋅⋅* **3** Save it and then restart *esx_menu_default*
 
-## Dialog
-⋅⋅* **1** Go to *esx_menu_dialog/html/css/app.css*
-⋅⋅* **2** Replace everything inside the *app.css* with
+*Dialog*
+⋅⋅* **1** Go to *esx_menu_dialog/html/css/app.css*<br />
+⋅⋅* **2** Replace everything inside the *app.css* with<br />
 ⋅⋅* **3** Save it and then restart *esx_menu_dialog*
 
 ## Requirements
-esx_menu_dialog
+esx_menu_dialog<br />
 esx_menu_default
