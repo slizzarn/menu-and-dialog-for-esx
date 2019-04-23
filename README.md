@@ -14,12 +14,12 @@
 # Installation
 **Menu**<br />
 **1.** Go to *esx_menu_default/html/css/app.css*<br />
-**2.** Replace everything inside the *app.css* with<br />
+**2.** Replace everything inside the *app.css* with everything from the menu file above.<br />
 **3.** Save it and then restart *esx_menu_default*
 
 **Dialog**<br />
 **1.** Go to *esx_menu_dialog/html/css/app.css*<br />
-**2.** Replace everything inside the *app.css* with<br />
+**2.** Replace everything inside the *app.css* with everything from the dialog file above.<br />
 **3.** Save it and then restart *esx_menu_dialog*
 
 ## Requirements
