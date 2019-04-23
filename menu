@@ -1,1 +1,160 @@
 
+/* MADE BY SLIZZARN - DISCORD: slizzarn#1144 GITHUB: https://github.com/slizzarn-fivem */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto+Condensed');
+
+.menu {
+	font-family: 'Poppins', sans-serif;
+	min-width: 330px;
+	color: #fff;
+	position: absolute;
+  padding: 8px;
+  background: #212121;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 9px 42px -5px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: 10px 9px 42px -5px rgba(0, 0, 0, 0.52);
+box-shadow: 10px 9px 42px -5px rgba(0, 0, 0, 0.52);
+}
+
+.head {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.menu .head {
+  background: #212121;
+	text-align: center;
+	height: 30px;
+  color: #727272;
+  font-weight: 300;
+	line-height: 27px;
+  font-size: 13px;
+}
+
+.menu .menu-items {
+	max-height: 525px;
+	overflow-y: auto;
+  font-weight: 500;
+  background: #212121;
+}
+
+.menu .menu-items .menu-item {
+	display: block;
+  padding: 7px;
+  font-size: 14px;
+	text-align: left;
+  text-indent: 5px;
+  margin-top: 5px;
+  background: #212121;
+  color: #707070;
+  border-radius: 7px;
+  border: 2px solid #3d3d3d;
+}
+
+.menu .menu-items .menu-item.selected {
+  background: #212121;
+  border: 1.5px solid #00baac;
+  border-radius: 7px;
+  color: #00baac;
+}
+
+.head > span {
+  position: relative;
+  display: inline-block;
+}
+
+.head > span::before,
+.head > span::after {
+  content: "";
+  position: absolute;
+  top: 52%;
+  width: 9999px;
+  height: 0.5px;
+  background: #727272;
+}
+
+.head > span::before {
+  right: 105%;
+  margin-right: 15px;
+}
+
+.head > span::after {
+  left: 105%;
+  margin-left: 15px;
+}
+
+
+
+.menu.align-left {
+	left: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-top-left {
+	left: 40;
+	top: 40;
+}
+
+.menu.align-top {
+	left: 50%;
+	top: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-top-right {
+	right: 10;
+	top: 40;
+}
+
+.menu.align-right {
+	right: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-bottom-right {
+	right: 40;
+	bottom: 40;
+}
+
+.menu.align-bottom {
+	left: 50%;
+	bottom: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-bottom-left {
+	left: 40;
+	bottom: 40;
+}
+
+.menu.align-center {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* WebKit scrollbar properties */
+::-webkit-scrollbar {
+  width: 8px;
+  border-left: 4px solid #272733;
+}
+::-webkit-scrollbar-track {
+  background: #272733;
+  border-left: 4px solid #272733;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a242d;
+  border-left: 4px solid #272733;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1a242d;
+  border-left: 4px solid #272733;
+}
+
+/* MADE BY SLIZZARN - DISCORD: slizzarn#1144 GITHUB: https://github.com/slizzarn-fivem */
