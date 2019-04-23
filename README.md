@@ -1,5 +1,3 @@
-# menu-and-dialog-for-esx
-
 # Pictures
 
 **Menu**<br />
