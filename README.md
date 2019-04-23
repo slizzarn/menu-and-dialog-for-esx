@@ -19,7 +19,7 @@
 **1.** Go to *esx_menu_dialog/html/css/app.css*<br /> <br />
 **2.** Replace everything inside the *app.css* with everything from the dialog file above.<br /> <br />
 **3.** Go to *esx_menu_dialog/html/js/app.js*, then remove line 5.<br /> <br />
-**3.** Save everything and then restart *esx_menu_dialog*
+**4.** Save everything and then restart *esx_menu_dialog*
 
 ## Requirements
 esx_menu_dialog<br />
