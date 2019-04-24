@@ -19,7 +19,12 @@
 **1.** Go to *esx_menu_dialog/html/css/app.css*<br /> <br />
 **2.** Replace everything inside the *app.css* with everything from the dialog file above.<br /> <br />
 **3.** Go to *esx_menu_dialog/html/js/app.js*, then delete line 5.<br /> <br />
-**4.** After that, replace the line 5 with this "'{{#isDefault}}<input type="text" name="value" placeholder="{{title}}" id="inputText"/>{{/isDefault}}' +".<br /> <br />
+**4.** After that, replace the line 5 with this 
+
+```javascript
+'{{#isDefault}}<input type="text" name="value" placeholder="{{title}}" id="inputText"/>{{/isDefault}}' +
+```
+
 **5.** Save everything and then restart *esx_menu_dialog*
 
 ## Requirements
