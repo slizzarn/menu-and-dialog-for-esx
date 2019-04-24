@@ -29,11 +29,11 @@
 
 **How to translate Dialog**<br />
 **1.** Go to *esx_menu_dialog/html/js/app.js*<br /> <br />
-**1.** Open the app.js and look for line 7 and 8.<br /> <br />
-**1.** In the text can you find "Envoyer" and "Annuler", translate it to whatever you want. Should look like this
+**2.** Open the app.js and look for line 7 and 8.<br /> <br />
+**3.** In the text can you find "Envoyer" and "Annuler", translate it to whatever you want. Should look like this
 
 ```javascript
-'<button type="button" name="submit">Accept</button>' +`
+'<button type="button" name="submit">Accept</button>' +
 '<button type="button" name="cancel">Cancel</button>' + 
 ```
 
