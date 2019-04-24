@@ -10,12 +10,12 @@
 ![alt text](https://i.gyazo.com/bbd10ce9f0bcf1e975576fe0e6da3a2f.png)
 
 # Installation
-**How to install Menu**<br />
+**How to install the menu**<br />
 **1.** Go to *esx_menu_default/html/css/app.css*<br /> <br />
 **2.** Replace everything inside the *app.css* with everything from the menu file above.<br /> <br />
 **3.** Save it and then restart *esx_menu_default*
 
-**How to install Dialog**<br />
+**How to install the dialog**<br />
 **1.** Go to *esx_menu_dialog/html/css/app.css*<br /> <br />
 **2.** Replace everything inside the *app.css* with everything from the dialog file above.<br /> <br />
 **3.** Go to *esx_menu_dialog/html/js/app.js*, then delete line 5.<br /> <br />
@@ -27,7 +27,7 @@
 
 **5.** Save everything and then restart *esx_menu_dialog*
 
-**How to translate Dialog**<br />
+**How to translate the dialog**<br />
 **1.** Go to *esx_menu_dialog/html/js/app.js*<br /> <br />
 **2.** Open the app.js and look for line 7 and 8.<br /> <br />
 **3.** In the text can you find "Envoyer" and "Annuler", translate it to whatever you want. Should look like this
