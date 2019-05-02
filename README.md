@@ -18,19 +18,28 @@
 **How to install the dialog**<br />
 **1.** Go to *esx_menu_dialog/html/css/app.css*<br /> <br />
 **2.** Replace everything inside the *app.css* with everything from the dialog file above.<br /> <br />
-**3.** Go to *esx_menu_dialog/html/js/app.js*, then delete line 5.<br /> <br />
-**4.** After that, replace the line 5 with this 
+**3.** Go to *esx_menu_dialog/html/js/app.js*, replace line 3 to line 12 with this:<br /> <br />
 
 ```javascript
-'{{#isDefault}}<input type="text" name="value" placeholder="{{title}}" id="inputText"/>{{/isDefault}}' +
+	let MenuTpl =
+		'<div id="menu_{{_namespace}}_{{_name}}" class="dialog {{#isBig}}big{{/isBig}}">' +
+			'{{#isDefault}}<input type="text" name="value" placeholder="{{title}}" id="inputText"/>{{/isDefault}}' +
+				'{{#isBig}}<textarea name="value"/>{{/isBig}}' +
+				'<button type="button" name="submit">Accept</button>' +
+				'<button type="button" name="cancel">Cancel</button>'
+			'</div>' +
+		'</div>'
+	;
 ```
 
 **5.** Save everything and then restart *esx_menu_dialog*
 
+Should look like this:
+
 **How to translate the dialog**<br />
 **1.** Go to *esx_menu_dialog/html/js/app.js*<br /> <br />
 **2.** Open the app.js and look for line 7 and 8.<br /> <br />
-**3.** In the text can you find "Envoyer" and "Annuler", translate it to whatever you want. Should look like this
+**3.** In the text can you find "Accept" and "Cancel", translate it to whatever you want. Should look like this
 
 ```javascript
 '<button type="button" name="submit">Accept</button>' +
