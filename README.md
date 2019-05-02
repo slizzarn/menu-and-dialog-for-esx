@@ -34,8 +34,6 @@
 
 **5.** Save everything and then restart *esx_menu_dialog*
 
-Should look like this:
-
 **How to translate the dialog**<br />
 **1.** Go to *esx_menu_dialog/html/js/app.js*<br /> <br />
 **2.** Open the app.js and look for line 7 and 8.<br /> <br />
