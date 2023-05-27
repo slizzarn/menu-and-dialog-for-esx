@@ -48,5 +48,5 @@
 esx_menu_dialog<br />
 esx_menu_default
 
-## Contact me
-Discord: slizzarn#1144
+## Join my discord!
+https://discord.gg/DXkqyxPUZk
